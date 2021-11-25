@@ -6,6 +6,10 @@
 @import url("fonts/Muli-SemiBold.ttf");
 @import url("fonts/Muli.ttf");
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -60,14 +64,26 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 20px;
 }
 .footer .mail-icon {
   position: relative;
   top: 10px;
 }
 
+.landing-row {
+  display: flex;
+  align-items: flex-end;
+}
 @media (max-width: 480px) {
   .landing {
     text-align: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+  .landing-row {
+    display: block;
   }
 }

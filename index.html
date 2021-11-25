@@ -10,12 +10,17 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <style>
       .flex {
         display: flex;
       }
-
     </style>
   </head>
   <body>
@@ -28,10 +33,14 @@
         <i class="material-icons small white-text">menu</i>
       </div>
       <div class="container">
-        <div class="row">
+        <div class="row landing-row">
           <!-- left content -->
           <div class="col s12 m6">
             <h2 class="white-text">Inspired by Feasts</h2>
+            <p class="white-text">
+              One stop shop for all the meat varieties in India
+            </p>
+            <br />
             <i class="material-icons white">chevron_left</i>
             <i class="material-icons white">chevron_right</i>
           </div>
@@ -44,7 +53,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col s12 white center">
+              <div class="col s12 white center z-depth-4">
                 <div class="container">
                   <h4>Meet Us at your door Step</h4>
                   <div class="row center-align center">
@@ -70,10 +79,17 @@
             </div>
           </div>
         </div>
+
+        <div class="center hide-on-med-and-up">
+          <a href="#features">
+            <i class="material-icons small white-text">keyboard_arrow_down</i>
+          </a>
+          <br />
+        </div>
       </div>
     </section>
 
-    <section class="section features">
+    <section id="features" class="section features">
       <div
         style="margin-top: 50px; margin-bottom: 50px"
         class="container center valign-wrapper center-align"
@@ -144,8 +160,8 @@
       <div class="container">
         <div class="row">
           <div class="col s12 m6">
-            <h4>OUR</h4>
-            <h2>PRODUCTS</h2>
+            <h4 class="title">OUR</h4>
+            <h2 class="title">PRODUCTS</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Blanditiis, quisquam natus tempore repudiandae, vitae maiores ad
@@ -153,6 +169,7 @@
               perferendis maiores. Recusandae voluptate in temporibus veritatis
               blanditiis saepe praesentium. Excepturi earum consequuntur sed.
             </p>
+            <br />
           </div>
           <div class="col s12 m6">
             <!-- images -->
@@ -215,9 +232,8 @@
           />
         </div>
         <div class="col s12 m8">
-          <h5>ABOUT</h5>
-
-          <h4>THE MEAT STORY</h4>
+          <h5 class="title">ABOUT</h5>
+          <h4 class="title">THE MEAT STORY</h4>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
           Necessitatibus architecto nemo corporis sed, harum numquam distinctio,
           iusto expedita ab sapiente, ipsa ipsum ut deserunt soluta sit
@@ -295,6 +311,17 @@
                     >info@themeatstory.com</a
                   >
                 </p>
+                <br />
+                <span style="margin-right: 25px">
+                  <a href="">
+                    <i class="fab fa-twitter small grey-text"></i>
+                  </a>
+                </span>
+                <span>
+                  <a href="">
+                    <i class="fab fa-facebook small grey-text"></i
+                  ></a>
+                </span>
               </div>
             </div>
           </div>
