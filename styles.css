@@ -1,0 +1,59 @@
+@import url("fonts/BeautyMountainsPersonalUse-od7z.ttf");
+@import url("fonts/Bill\ Smith\ Demo.ttf");
+@import url("fonts/cambria.ttc");
+@import url("fonts/cambriab_0.ttf");
+@import url("fonts/Muli-Light.ttf");
+@import url("fonts/Muli-SemiBold.ttf");
+@import url("fonts/Muli.ttf");
+
+.landing {
+  background-image: url("assets/others/bg1.png");
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feature-card {
+  height: 300px;
+  /* background-color: red; */
+  padding: 5px;
+}
+
+.caption {
+  background-color: red;
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
+  opacity: 50%;
+}
+.caption span {
+  opacity: 100%;
+  margin-bottom: 7px;
+}
+.check-icon {
+  position: relative;
+  top: 3px;
+}
+
+a {
+  text-decoration: none;
+  /* color: ; */
+}
+
+.footer {
+  color: #eee;
+  padding-top: 30px;
+  background-image: url("assets/others/footerBg.png");
+  background-color: #cccccc;
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer .mail-icon {
+  position: relative;
+  top: 10px;
+}
